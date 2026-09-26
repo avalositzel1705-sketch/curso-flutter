@@ -3,7 +3,7 @@ void main() {
   print('Suma: ${addTwoNumbers(10, 30)}');
 }
 
-String greatEveryone() => 'Hello everyone';
+String greatEveryone() => 'Hello';
 
 int addTwoNumbers(int a, int b) => a + b;
 int addTwoNumbersOpcional(int a, [int b = 0]) {

@@ -1,10 +1,10 @@
 void main() {
   print(greatEveryone());
   print('Suma: ${addTwoNumbers(10, 30)}');
-  print(greetPerson(name: 'Kevin', massege: 'Hi,'));
+  print(greetPerson(name: 'Itzel', massege: 'Hi,'));
 }
 
-String greatEveryone() => 'Hello everyone';
+String greatEveryone() => 'Hello';
 
 int addTwoNumbers(int a, int b) => a + b;
 int addTwoNumbersOpcional(int a, [int b = 0]) {
@@ -13,5 +13,5 @@ int addTwoNumbersOpcional(int a, [int b = 0]) {
 }
 
 String greetPerson({required String name, String massege = 'Hola,'}) {
-  return '$massege Kevin';
+  return '$massege Itzel';
 }

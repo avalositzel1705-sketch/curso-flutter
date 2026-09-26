@@ -1,22 +1,22 @@
 void main() {
   final Map<String, dynamic> rawJson = {
-    'name': 'Tony Stark',
+    'name': 'spyderman',
     'power': 'Money',
     'isAlive': true,
   };
-  final ironman = Hero.fromJson(rawJson);
+  final spyderman = Hero.fromJson(rawJson);
   // isAlive: rawJson ['isAlive'] ?? false,
   // power: 'Money',
-  // name: 'Tony Stark'
+  // name: 'spyderman'
   //    );
 
-  //final ironman = Hero(
+  //final spyderman = Hero(
   //isAlive: false,
   //power: 'Money',
-  // name: 'Tony Stark'
+  // name: 's'
   // );
 
-  print(ironman);
+  print(spyderman);
 }
 
 class Hero {

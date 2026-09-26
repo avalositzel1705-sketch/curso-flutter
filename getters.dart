@@ -1,5 +1,5 @@
 void main() {
-  final mySquare = Square( side: -10 );
+  final mySquare = Square( side: 10 );
   
   //mySquare.side = 5;
   

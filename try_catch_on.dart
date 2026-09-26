@@ -2,7 +2,7 @@ void main() async {
   print('Inicio del programa ');
 
   try {
-    final value = await httpGet('http://kevin_flutter.com/umb');
+    final value = await httpGet('http://itzel_flutter.com/umb');
     print('exito: $value');
   } on Exception catch (err) {
     print('Tenemos una Eception: $err');

@@ -1,20 +1,25 @@
 void main() {
-  final Hero wolwerine = Hero(name: 'Logan', power: 'regeneracion');
-  print(wolwerine);
-  print(wolwerine.name);
-  print(wolwerine.power);
+  final Animal delfin = Animal(
+    name: 'Flipper',
+    ability: 'nadar rápidamente',
+  );
+
+  print(delfin);
+  print(delfin.name);
+  print(delfin.ability);
 }
 
-class Hero {
+class Animal {
   String name;
-  String power;
+  String ability;
 
-  Hero({required this.name, this.power = 'Sin poder'});
-  //Hero( String pName, String pPower )
-  //: name = pName,
-  //power = pPower;
+  Animal({
+    required this.name,
+    this.ability = 'Sin habilidad',
+  });
+
   @override
   String toString() {
-    return '$name - $power';
+    return '$name - $ability';
   }
 }
